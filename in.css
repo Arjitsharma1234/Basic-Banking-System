@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(#2b1055,#7597de);
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+header ul li a:hover,header ul li a.active{
+    text-decoration: none;
+    background: #fff;
+    color: #2b1055;
+}
+
+
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.content{
+    display: flex;
+    padding-left: 2rem;
+    align-items: center;
+    padding-top: 15rem;
+    z-index: 1;
+    color: #fff;
+}
+
+.container-fluid h1{
+    text-align: center;
+}
+.container-fluid p{
+    text-align: center;
+}
+
+.container-fluid{
+    text-align: center;
+}
+
+.get-started{
+    color: rgb(21, 169, 56);
+    text-decoration: none;
+    padding: 6px 15px;
+    border-radius: 30px;
+    font-size: 1.5rem;
+}
+
+
+.get-started:hover{
+    text-decoration: none;
+    background: #fff;
+    color: rgb(21, 169, 56);
+}
+/* get-started-buttons css end here*/

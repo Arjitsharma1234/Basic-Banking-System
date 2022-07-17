@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(#2b1055,#7597de);
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+header ul li a:hover,header ul li a.active{
+    text-decoration: none;
+    background: #fff;
+    color: #2b1055;
+}
+
+
+/* navbar css ends here  */
+
+
+
+.my-info {
+    padding-top: 6rem;
+}
+.my-info h2{
+    color: #fff;
+}
+
+.my-info h4{
+    color: #fff;
+}
+
+.btn-info {
+    padding: 1rem 1.2rem;
+    background-color: #1386cd !important;
+    color: #fff !important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+    border-radius: 50px;
+    margin-bottom: 1rem;
+}
+
+.btn-info:hover {
+    background-color: rgb(29, 74, 221) !important;
+}
